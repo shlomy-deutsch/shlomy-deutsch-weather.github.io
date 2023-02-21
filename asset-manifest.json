@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shlomy-deutsch-weather.github.io/static/css/main.fd6001ac.css",
-    "main.js": "/shlomy-deutsch-weather.github.io/static/js/main.27949953.js",
-    "static/js/787.13d76ca7.chunk.js": "/shlomy-deutsch-weather.github.io/static/js/787.13d76ca7.chunk.js",
-    "index.html": "/shlomy-deutsch-weather.github.io/index.html",
-    "main.fd6001ac.css.map": "/shlomy-deutsch-weather.github.io/static/css/main.fd6001ac.css.map",
-    "main.27949953.js.map": "/shlomy-deutsch-weather.github.io/static/js/main.27949953.js.map",
-    "787.13d76ca7.chunk.js.map": "/shlomy-deutsch-weather.github.io/static/js/787.13d76ca7.chunk.js.map"
+    "main.css": "/weather/static/css/main.fd6001ac.css",
+    "main.js": "/weather/static/js/main.a440d88b.js",
+    "static/js/787.13d76ca7.chunk.js": "/weather/static/js/787.13d76ca7.chunk.js",
+    "index.html": "/weather/index.html",
+    "main.fd6001ac.css.map": "/weather/static/css/main.fd6001ac.css.map",
+    "main.a440d88b.js.map": "/weather/static/js/main.a440d88b.js.map",
+    "787.13d76ca7.chunk.js.map": "/weather/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd6001ac.css",
-    "static/js/main.27949953.js"
+    "static/js/main.a440d88b.js"
   ]
 }
