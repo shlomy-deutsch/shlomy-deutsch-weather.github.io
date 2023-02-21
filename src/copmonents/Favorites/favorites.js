@@ -1,4 +1,4 @@
-import { SetProducts, SetoneProduct } from "../Redux/GlobalState";
+import { SetoneProduct } from "../Redux/GlobalState";
 import store from "../Redux/Store";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";

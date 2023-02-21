@@ -48,10 +48,10 @@ export function stateReducer(currentState = new GlobalState(), action) {
     case StateActionType.SetProducts:
       newState.products.push(action.payload);
       return currentState;
-      break;
     case StateActionType.SetoneProduct:
       newState.oneProduct.name = action.payload.name;
       newState.oneProduct.num = action.payload.num;
+      break
     default:
       return currentState;
   }
