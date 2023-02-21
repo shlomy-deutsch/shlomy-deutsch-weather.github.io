@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shlomy-deutsch.github.io-weather/static/css/main.fd6001ac.css",
+    "main.js": "/shlomy-deutsch.github.io-weather/static/js/main.28f65c59.js",
+    "static/js/787.13d76ca7.chunk.js": "/shlomy-deutsch.github.io-weather/static/js/787.13d76ca7.chunk.js",
+    "index.html": "/shlomy-deutsch.github.io-weather/index.html",
+    "main.fd6001ac.css.map": "/shlomy-deutsch.github.io-weather/static/css/main.fd6001ac.css.map",
+    "main.28f65c59.js.map": "/shlomy-deutsch.github.io-weather/static/js/main.28f65c59.js.map",
+    "787.13d76ca7.chunk.js.map": "/shlomy-deutsch.github.io-weather/static/js/787.13d76ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd6001ac.css",
+    "static/js/main.28f65c59.js"
+  ]
+}
