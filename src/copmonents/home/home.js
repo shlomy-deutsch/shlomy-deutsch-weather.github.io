@@ -157,7 +157,7 @@ function Home() {
     } else {
       axios
         .get(
-          "http://dataservice.accuweather.com/forecasts/v1/daily/5day/215854?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I"
+          "https://dataservice.accuweather.com/forecasts/v1/daily/5day/215854?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I"
         )
         .then((res) => {
           setTlv(res.data.DailyForecasts);
