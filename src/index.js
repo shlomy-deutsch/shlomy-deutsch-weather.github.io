@@ -8,7 +8,7 @@ import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router base="/shlomy-deutsch.github.io/shlomy-deutsch-weather.github.io">
+  <Router base="https://weather.github.io/shlomy-deutsch-weather.github.io/">
     <App />
     </Router>
 );
