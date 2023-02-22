@@ -20,7 +20,7 @@ function Favorites() {
       const promises = currentProducts.map((i) => {
         return axios
           .get(
-            `http://dataservice.accuweather.com/currentconditions/v1/${i.key1}?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I`
+            `https://dataservice.accuweather.com/currentconditions/v1/${i.key1}?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I`
           )
           .then((res) => {
             return {

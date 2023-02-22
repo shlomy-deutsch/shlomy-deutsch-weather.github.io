@@ -1,6 +1,3 @@
-/* לבטל סקרולר במצב רגיל
-כפתור דיספליי במצב מובייל קטן מידי
-לעשות מרג'ינים לכרטיסים במצב מובייל */
 button {
   padding: 10px 20px;
   border-radius: 5px;
@@ -92,7 +89,6 @@ label > span {
     
     font-size: 11px;
     margin-top: 11px;
-    height: 0%;
 }
 #resultBtn{
     margin: 5px;

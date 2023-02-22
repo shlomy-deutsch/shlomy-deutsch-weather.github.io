@@ -42,7 +42,7 @@ function Home() {
   function search() {
     axios
       .get(
-        `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=kdT1jLYQVACj5C7I9AOFINBIjfxudA0u&q=${texttosearch}`
+        `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=kdT1jLYQVACj5C7I9AOFINBIjfxudA0u&q=${texttosearch}`
       )
       .then((res) => {
         if (res.data === null || res.data.length === 0) {
@@ -76,7 +76,7 @@ function Home() {
     setdisplayLocation("The wether in " + name);
     await axios
       .get(
-        `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${num}?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I`
+        `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${num}?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I`
       )
       .then((res) => {
         setTlv(res.data.DailyForecasts);
@@ -119,7 +119,7 @@ function Home() {
       });
       axios
         .get(
-          `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${savedCity.num}?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I`
+          `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${savedCity.num}?apikey=ROI8vARRlRQahUNF3w6YeFoMbc40l97I`
         )
         .then((res) => {
           setTlv(res.data.DailyForecasts);
