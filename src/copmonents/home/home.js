@@ -110,6 +110,7 @@ function Home() {
 
   useEffect(() => {
     const savedCity = store.getState().oneProduct;
+    console.log(savedCity);
     if (Object.keys(savedCity).length !== 0 && savedCity.name !== undefined) {
       setdisplayLocation("The wether in " + savedCity.name);
       setMakeitchecked(true);
