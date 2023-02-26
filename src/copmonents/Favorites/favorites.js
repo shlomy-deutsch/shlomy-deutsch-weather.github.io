@@ -14,7 +14,7 @@ function Favorites() {
   }
   useEffect(() => {
     const currentProducts = store.getState().products;
-    if(currentProducts.length===0){setHeadLine('Thehe is no favorites here'); return}
+    if(currentProducts.length===0){setHeadLine('There is no favorites here'); return}
     if (prevProductsRef.current !== currentProducts) {
       prevProductsRef.current = currentProducts;
       const promises = currentProducts.map((i) => {
